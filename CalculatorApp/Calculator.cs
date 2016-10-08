@@ -28,5 +28,10 @@ namespace CalculatorApp
         {
             return Convert.ToInt32(FristNumner - SecondNumber);
         }
+
+        public int MultiPlication()
+        {
+            return FristNumner*SecondNumber;
+        }
     }
 }
