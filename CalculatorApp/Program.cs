@@ -10,6 +10,10 @@ namespace CalculatorApp
     {
         static void Main(string[] args)
         {
+            var calculater =  new Calculator(5,4);
+            calculater.Add();
+            Console.ReadKey();
+
         }
     }
 }
